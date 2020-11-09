@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basiclab.MainActivity">
+
+    <item
+        android:id="@+id/action_op1"
+        android:orderInCategory="100"
+        android:title="Opcja 1"
+        android:onClick="onOptionsItemSelected"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_op2"
+        android:orderInCategory="100"
+        android:title="Opcja 2"
+        android:onClick="onOptionsItemSelected"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_op3"
+        android:orderInCategory="100"
+        android:title="Opcja 3"
+        android:onClick="onOptionsItemSelected"
+        app:showAsAction="always" />
+</menu>
